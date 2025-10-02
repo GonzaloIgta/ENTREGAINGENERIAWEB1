@@ -1,0 +1,110 @@
+
+#cabecera_links #inicio {
+    color: orange;
+}
+body {
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover; /* Escala la imagen para cubrir toda el área */
+}
+
+.centrador {
+    margin: 0 auto;
+    display: block; 
+    text-align: center; 
+    height: 25em;
+}
+
+/*BOTON*/
+.botoncontenedor {
+    width: 150px;  
+    height: 50px; 
+    margin: 0 auto;
+    background-color:coral;
+    border:  2px solid black;
+    border-radius: 8px;
+
+
+}
+
+.botoncontenedor a{
+    display: flex;
+    justify-content: center; 
+    height: 100%; 
+    align-items: center;     
+    font-style: oblique;
+    text-decoration: none; /* Quita el subrayado */
+    color: whitesmoke; 
+    font-size: 16px;
+
+
+
+}
+/*TEXTO DE BIENVENIDA*/
+.texto_arriba_boton {
+    font-family:"Palace Script MT", cursive;
+    color:whitesmoke;
+}
+.texto_arriba_boton #arriba {
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-bottom: 0; /*Para quitar margen que si no hay mucho hueco*/
+    font-size: 80px;
+}
+
+.texto_arriba_boton #abajo {
+    font-size: 60px; 
+    margin-top: 0; /*Para quitar margen que si no hay mucho hueco*/
+
+}
+
+/*ZONA DE DONDE NOS ENCONTRAMOS*/
+.zona_localizacion {
+    margin-top: 15em;
+    display: flex;
+    align-items: center; 
+
+}
+
+#mapa {
+    width: 25%;
+    margin-left: 10em;
+    height: auto;
+    border:  8px solid black;
+    border-radius:40px; 
+
+
+}
+
+#texto_mapa {
+  text-align: justify;
+  margin-right: 10em;
+  color: whitesmoke;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+main {
+    margin-bottom: 500px; /*ESPACIO POR QUE SI NO SE SOBREPONE*/
+}
+
+@media screen and (max-width: 1200px) {
+
+  #texto_mapa {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #mapa {
+    width: 40%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  main {
+    margin-bottom: 700px;
+  }
+  
+}
+
+
+
