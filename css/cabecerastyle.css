@@ -1,0 +1,55 @@
+/*FONDO DE LA PAGINA*/
+body {
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover; /* Escala la imagen para cubrir toda el área */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;     /* Hace que ocupe todo el ancho */
+}
+
+#logo {
+    width: 9%;
+    height: auto;
+}
+
+#cabecera_links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 100px; 
+    cursor: pointer;
+
+}
+
+#cabecera_links a:hover {
+  color: lightsalmon; 
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición suave */
+}
+
+
+#cabecera_links a{
+    font-size: 25px;
+    text-decoration: none; /* Quita el subrayado */
+    color: white;
+
+}
+
+/*MOVIL*/
+@media (max-width: 800px) {
+  #logo {
+    width: 18%; 
+  }
+
+  #cabecera_links {
+    gap: 20px; 
+  }
+
+  #cabecera_links a {
+    font-size: 16px; 
+  }
+}
+

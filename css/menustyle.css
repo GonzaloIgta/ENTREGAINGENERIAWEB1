@@ -1,0 +1,142 @@
+#cabecera_links #menu {
+    color: orange;
+}
+
+
+/* General */
+main {
+    font-family: 'Segoe UI', Tahoma;
+    padding: 2rem;
+    color: whitesmoke;
+}
+
+button {
+  background-color: coral;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: rgb(238, 91, 38);
+}
+
+/*NAVEGACION*/
+/* Navegación interna del menú */
+.menu_navegacion {
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;       
+}
+
+.menu_navegacion a {
+    text-decoration: none;
+    color:coral;    
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.menu_navegacion a:hover {
+    background-color: rgb(217, 210, 210);
+}
+
+
+/* Secciones */
+
+.titulos {
+    font-size: 1.8rem;
+    color: chocolate;
+    border-bottom: 2px solid chocolate;
+    margin-bottom: 1.5rem;
+}
+.seccion_desc {
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+/* seccion de platos */
+.seccion_platos {
+    display: grid;
+    color:  #222;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+.plato {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+}
+.plato:hover {
+    transform: scale(1.02);
+}
+.plato img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.info_plato {
+    padding: 1rem;
+}
+.info_plato h3 {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.precio {
+    color: #8b0000;
+    font-weight: bold;
+}
+.info_plato p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+
+
+
+/* CTA final */
+.cta_final {
+    background: #8b0000;
+    color: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.cta_final h3 {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 800px) {
+    .menu_intro {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .menu_nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .cta_final {
+        flex-direction: column;
+        text-align: center;
+    }
+}

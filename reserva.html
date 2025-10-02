@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>RESTAURANTE</title>
+    <link rel="stylesheet" href="css/reservastyle.css">
+    <link rel="stylesheet" href="css/cabecerastyle.css">
+    <link rel="stylesheet" href="css/footerstyle.css">
+    <link rel="icon" type="image/vnd.icon" href="imagenes/logo.ico">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header class="header">
+        <img id="logo" src="imagenes/logo.png" alt="LOGO RESTAURANTE">
+        <div id="cabecera_links">
+            <a id = "inicio" href="index.html">Inicio</a>
+            <a id = "menu" href="menu.html">Menu</a>
+            <a id = "reservas" href="reserva.html">Reservas</a>
+            <a id = "conocenos" href="conocenos.html">Conocenos</a>
+        </div>
+    </header>
+
+    <main>
+        <div class = "formulario">
+            <label for="fecha">Fecha</label>
+            <input type ="date" id="fecha" name="fecha">
+            <label for="hora">Hora</label>
+            <input type ="time" id="hora" name="hora">
+            <label for="numero_de_personas">Número de Personas</label>
+            <input type="number" id="numero_de_personas" name="numero_de_personas" min="1"  value="1">
+            <label for="nombre_reserva">Nombre de la reserva</label>
+            <input type="text" id="nombre_reserva" name="nombre_reserva">
+            <label for="correo_ent"> Correo Electrónico</label>
+            <input type="email" id="correo_ent" name="correo">
+            <label for="telefono_contacto">Teléfono</label>
+            <input type="tel" id="telefono_contacto" name="telefono_contacto">
+            <button> Reserva</button>
+
+        </div>
+        <div class = "tabla"> 
+            <p>Sus reservas</p>
+            <table>
+            <tr> <th>Nombre de la reserva</th> <th>Fecha</th> <th>Hora</th> <th></th></tr>
+            <tr>  <td>Antonio De Triana</td> <td> 11/11/2025</td> <td>21:00</td><td><button>Cancelar reserva</button></td></tr>
+            <tr>  <td>Jose Miguel</td> <td> 01/01/2026</td> <td>22:00</td><td><button>Cancelar reserva</button></td></tr>
+            </table>
+        </div>
+
+    </main>
+
+<footer>
+    <div class="contactanos">
+        <h2 id="titulo_cabecera">Contáctanos</h2>
+        <div class="caja_contactanos">
+            <div class="contenedor_fila">
+                <img id="correo" src="imagenes/redes_sociales/correo.png" alt="correo:">
+                <p>info@ristaurantedaluigi.es</p>
+            </div>
+            <div class="contenedor_fila">
+                <img id="was" src="imagenes/redes_sociales/WhatsApp.png" alt="WhatsApp:">
+                <p>+34 623 985 789</p>
+            </div>
+            <div class="contenedor_fila">
+                <p><strong>Dirección:</strong> Bilbao, Unibertsitate Etorbidea, 44</p>
+            </div>
+        </div>
+    </div>
+    <div class="imagen-central">
+        <img src="imagenes/logo2.png" alt="Imagen del centro">
+    </div>
+    <div class="Redes_sociales">
+        <h2 id="titulo_cabecera"> Síguenos</h2>
+        <div class="links_redes_sociales">
+            <a href="imagenes/redes_sociales/simulacion/instagramsimu.png" target="_blank">
+                <img id="insta" src="imagenes/redes_sociales/instagram.png" alt="Instagram">
+            </a>
+            <a href="imagenes/redes_sociales/simulacion/xsimu.png" target="_blank">
+                <img id="x" src="imagenes/redes_sociales/x.png" alt="X">
+            </a>
+            <a href="imagenes/redes_sociales/simulacion/facebooksimu.png" target="_blank">
+                <img id="Facebook" src="imagenes/redes_sociales/facebook.png" alt="Facebook">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<!--IMAGENES GENERADAS POR IA (GEMINI)-->
