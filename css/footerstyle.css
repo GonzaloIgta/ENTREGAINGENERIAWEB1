@@ -8,12 +8,11 @@ footer {
     background-color: #ffffff74;
     margin: 10px 0; /*Margen superior/inferion y de los lados */
     gap: 10px; 
+    text-align: center;
+
 }
 
-.contactanos,
-.Redes_sociales {
-    text-align: center;
-}
+
 
 footer #titulo_cabecera  {
     color: black; 
