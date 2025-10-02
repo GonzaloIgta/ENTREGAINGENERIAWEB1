@@ -87,7 +87,7 @@ main {
     margin-bottom: 500px; /*ESPACIO POR QUE SI NO SE SOBREPONE*/
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
 
   #texto_mapa {
     margin-right: 0;

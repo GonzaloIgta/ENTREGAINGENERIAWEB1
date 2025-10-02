@@ -126,7 +126,7 @@ button:hover {
     margin-bottom: 0.5rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .menu_intro {
         grid-template-columns: 1fr;
         text-align: center;

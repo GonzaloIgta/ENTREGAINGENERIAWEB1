@@ -91,7 +91,7 @@ main p {
   margin-bottom: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   main {
     flex-direction: column; /*Uno debajo del otro*/
     align-items: center;
