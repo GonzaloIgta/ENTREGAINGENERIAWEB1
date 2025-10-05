@@ -14,7 +14,7 @@ footer {
 
 
 
-footer #titulo_cabecera  {
+footer .titulo_cabecera  {
     color: black; 
     font-size: xx-large;
     border-bottom: dotted 1px #888;
